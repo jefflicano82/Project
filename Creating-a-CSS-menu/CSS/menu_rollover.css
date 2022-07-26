@@ -45,7 +45,7 @@ body {
     This also avoids a block-level bug*/
     visibility: visible;
 }
-.submenu li {
+.submenu {
     padding: 0;
     left: 0;
     position: absolute;
