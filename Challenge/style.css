@@ -1,0 +1,21 @@
+h3 {
+    text-align: center;
+}
+img {
+    width: 600px;
+    height: 300px;
+    border: 2px dashed red;
+}
+body {
+    color: blue;
+  }
+  
+  * {
+    background-color:lightblue
+}
+
+div {
+    width:560px;
+    height:315px; 
+    frameborder:0;
+}
