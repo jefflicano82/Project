@@ -1,0 +1,33 @@
+/*Setting whole body's font*/
+body {
+    font-family: Helvetica (sans-serif);
+    font-size: 20px;
+  }
+input {
+  width: 100%;
+  margin: auto;
+  border: aqua;
+  border-radius: 0%;
+}
+/*organizing the gallery*/
+img {
+  float:left;
+  width: 200px;
+  height: 200px;
+  object-fit: scale-down;
+  display: inline-table;
+}
+.column {
+  float:left;
+  width: 100%;
+  padding: 3px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*centering the video*/
+div.center {
+  text-align: center;
+}
